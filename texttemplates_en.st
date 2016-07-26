@@ -4,7 +4,7 @@
 {11,
 {"Operators",1,0,"",""},
 {0,
-{"ElseIf",0,0,"elseif","Else If <?> Then"}
+{"ElseIf",0,0,"elf","ElsIf <?> Then"}
 },
 {0,
 {"While",0,0,"While","While <?> Do
@@ -40,7 +40,7 @@ EndFunction
 	<?>
 Except
     //Message(ErrorDescription(), MessageStatus.Attention);
-КонецПопытки;"}
+EndTry;"}
 },
 {0,
 {"Raise",0,0,"ra[ise]","Raise ""<?>"";"}
@@ -83,34 +83,33 @@ Font = new Font(<?>, , , , , );"}
 {"TypeDescription",0,0,"typed","<?""Type description constructor"", TypeDescriptionConstructor>"}
 },
 {0,
-{"Export",0,0,"exp","Export
+{"Export",0,0,"ex","Export
 <?>"}
 }
 },
 {6,
 {"Value collections",1,0,"",""},
 {0,
-{"ValueTable",0,0,"table=","Table = New ValueTable;
+{"ValueTable",0,0,"table=","Table = New ValueTable();
 <?>"}
 },
 {0,
-{"Value list",0,0,"l=","List = New ValueList;
+{"Value list",0,0,"l=","List = New ValueList();
 <?>"}
 },
 {0,
-{"Structure",0,0,"st=","Struct = New Structure;
+{"Structure",0,0,"st","New Structure(<?>);"}
+},
+{0,
+{"Map",0,0,"map=","Map = New Map();
 <?>"}
 },
 {0,
-{"Map",0,0,"map=","Map = New Map;
+{"ValueTree",0,0,"vt=","Tree = New ValueTree();
 <?>"}
 },
 {0,
-{"ValueTree",0,0,"vt=","Tree = New ValueTree;
-<?>"}
-},
-{0,
-{"Массив",0,0,"Мас[сив=]","Массив = Новый Массив(<?>);"}
+{"Массив",0,0,"Мас[сив=]","Array = New Array(<?>);"}
 }
 },
 {11,
@@ -216,7 +215,7 @@ ChoiceDlg.Show(Notify);
 {"Template",0,0,"Templ","Template = GetTemplate(<?>);"}
 }
 },
-{23,
+{28,
 {"ShortCuts",1,0,"",""},
 {0,
 {"BegOfMonth",0,0,"BM","BegOfMonth(<?>)"}
@@ -255,7 +254,7 @@ ChoiceDlg.Show(Notify);
 {"FillPropertyValues",0,0,"fpv","FillPropertyValues(<?>)"}
 },
 {0,
-{"TrimAll",0,0,"Tr[imAll]","TrimAll(<?>)"}
+{"TrimAll",0,0,"Tr[imAll]","TrimAll(<?>"}
 },
 {0,
 {"СтрЗаменить",0,0,"СтрЗ[аменить]","СтрЗаменить(<?>,,)"}
@@ -298,6 +297,21 @@ Function <?>()
 		
 EndFunction
 "}
+},
+{0,
+{"Return",0,0,"r","Return <?>"}
+},
+{0,
+{"Object",0,0,"o","Object.<?>"}
+},
+{0,
+{"False",0,0,"fa","False"}
+},
+{0,
+{"True",0,0,"tr","True"}
+},
+{0,
+{"NotValueIsFilled",0,0,"nvv","Not ValueIsFilled(<?>)"}
 }
 },
 {4,
