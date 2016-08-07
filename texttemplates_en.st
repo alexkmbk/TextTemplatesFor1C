@@ -12,7 +12,7 @@
 EndDo;"}
 },
 {0,
-{"For",0,0,"For","For <?> To  Do
+{"For",0,0,"Fo","For <?> To  Do
 	
 EndDo;"}
 },
@@ -57,7 +57,7 @@ EndTry;"}
 EndIf;"}
 }
 },
-{7,
+{6,
 {"Other",1,0,"",""},
 {0,
 {"format",0,0,"format","Format(<?>, ""<?, FormatString>"")"}
@@ -74,17 +74,13 @@ EndIf;"}
 Font = new Font(<?>, , , , , );"}
 },
 {0,
-{"ЧислоПрописью",0,0,"Число[Прописью]","ЧислоПрописью(<?>,,""рубль, рубля, рублей, м, копейка, копейки, копеек, ж, 2"")"}
-},
-{0,
 {"und",0,0,"und","Undefined"}
 },
 {0,
 {"TypeDescription",0,0,"typed","<?""Type description constructor"", TypeDescriptionConstructor>"}
 },
 {0,
-{"Export",0,0,"ex","Export
-<?>"}
+{"Export",0,0,"ex","Export"}
 }
 },
 {6,
@@ -215,7 +211,7 @@ ChoiceDlg.Show(Notify);
 {"Template",0,0,"Templ","Template = GetTemplate(<?>);"}
 }
 },
-{28,
+{21,
 {"ShortCuts",1,0,"",""},
 {0,
 {"BegOfMonth",0,0,"BM","BegOfMonth(<?>)"}
@@ -257,21 +253,7 @@ ChoiceDlg.Show(Notify);
 {"TrimAll",0,0,"Tr[imAll]","TrimAll(<?>"}
 },
 {0,
-{"СтрЗаменить",0,0,"СтрЗ[аменить]","СтрЗаменить(<?>,,)"}
-},
-{0,
-{"Обработка прерывания пользователя ",0,0,"ОПП","ОбработкаПрерыванияПользователя();
-<?>"}
-},
-{0,
-{"Очистить сообщения",0,0,"ОС","ОчиститьСообщения();
-<?>"}
-},
-{0,
-{"Сохранить значение ",0,0,"Сох[ранитьЗначение]","СохранитьЗначение(<?>);"}
-},
-{0,
-{"Восстановить значение ",0,0,"Вос[становитьЗначение]","ВосстановитьЗначение(<?>);"}
+{"StrReplace",0,0,"StrR[eplace]","StrReplace(<?>,,)"}
 },
 {0,
 {"AtClient",0,0,"cli","&AtClient
@@ -283,26 +265,10 @@ ChoiceDlg.Show(Notify);
 "}
 },
 {0,
-{"AtServerWithoutContext",0,0,"srvw","&AtServerWithoutContext"}
-},
-{0,
-{"AtServerProc",0,0,"srvp","&AtServer
-Procedure <?>()
-		
-EndProcedure"}
-},
-{0,
-{"AtServerFunc",0,0,"srvf","&AtServer
-Function <?>()
-		
-EndFunction
-"}
-},
-{0,
 {"Return",0,0,"r","Return <?>"}
 },
 {0,
-{"Object",0,0,"o","Object.<?>"}
+{"Object",0,0,"o","Object<?>"}
 },
 {0,
 {"False",0,0,"fa","False"}
