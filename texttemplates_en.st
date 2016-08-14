@@ -211,7 +211,7 @@ ChoiceDlg.Show(Notify);
 {"Template",0,0,"Templ","Template = GetTemplate(<?>);"}
 }
 },
-{21,
+{22,
 {"ShortCuts",1,0,"",""},
 {0,
 {"BegOfMonth",0,0,"BM","BegOfMonth(<?>)"}
@@ -278,6 +278,9 @@ ChoiceDlg.Show(Notify);
 },
 {0,
 {"NotValueIsFilled",0,0,"nvv","Not ValueIsFilled(<?>)"}
+},
+{0,
+{"AtServerNoContext",0,0,"srvn","&AtServerNoContext"}
 }
 },
 {4,
