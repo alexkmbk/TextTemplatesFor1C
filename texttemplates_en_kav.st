@@ -395,7 +395,7 @@ EndDo; "}
 {1,
 {"Preprocessor",1,0,"",""},
 {0,
-{"#If",0,0,"#i","#If <?"""", VariantChoice, ""Client"", ""Client"", ""Server"", ""Server"", ""ExternalConnection"", ""ExternalConnection"" ,""ThickClientOrdinaryApplication"", ""ThickClientOrdinaryApplication"", ""ThickClientManagedApplication"",""ThickClientManagedApplication"", ""ThinClient"", ""ThinClient"", ""WebClient"", ""WebClient""> Then
+{"#If",0,0,"#if","#If <?"""", VariantChoice, ""Client"", ""Client"", ""Server"", ""Server"", ""ExternalConnection"", ""ExternalConnection"" ,""ThickClientOrdinaryApplication"", ""ThickClientOrdinaryApplication"", ""ThickClientManagedApplication"",""ThickClientManagedApplication"", ""ThinClient"", ""ThinClient"", ""WebClient"", ""WebClient""> Then
     <?> 	
 #EndIf"}
 }
