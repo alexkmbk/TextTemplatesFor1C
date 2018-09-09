@@ -1,6 +1,6 @@
 ﻿{1,
 {11,
-{"texttemplates_en_kav(v1.0) ",1,0,"",""},
+{"kav_en (v1.0) ",1,0,"",""},
 {0,
 {"About",0,0,"","//	Text templates for 1C:Enterprise 8.3 configurator, version 1.0
 
