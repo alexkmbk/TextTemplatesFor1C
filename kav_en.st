@@ -1,5 +1,5 @@
 ﻿{1,
-{11,
+{12,
 {"kav_en (v1.0) ",1,0,"",""},
 {0,
 {"About",0,0,"","//	Text templates for 1C:Enterprise 8.3 configurator, version 1.0
@@ -144,6 +144,21 @@ EndProcedure"}
 }
 }
 },
+{4,
+{"Applied objects",1,0,"",""},
+{0,
+{"Boundary",0,0,"Boundary=","Boundary = New Boundary(<?>, <?"""", VariantChoice, ""BoundaryType.Including"", ""BoundaryType.Including"", ""BoundaryType.Excluding"", ""BoundaryType.Excluding"">);"}
+},
+{0,
+{"Enums",0,0,"enum[s]","Enums.<?"""", EnumValue>    "}
+},
+{0,
+{"ExtDimensionsDr",0,0,"ExtDimensionsDr","ExtDimensionsDr[<?"""", ChartOfCharacteristicTypesPredefinedData>] = <?>;"}
+},
+{0,
+{"ExtDimensionsCr",0,0,"ExtDimensionsCr","ExtDimensionsCr[<?"""", ChartOfCharacteristicTypesPredefinedData>] = <?>;"}
+}
+},
 {6,
 {"Value collections",1,0,"",""},
 {0,
@@ -170,7 +185,7 @@ EndProcedure"}
 <?>"}
 }
 },
-{10,
+{9,
 {"Queries",1,0,"",""},
 {0,
 {"Query with constructor",0,0,"Q","Query = New Query;
@@ -184,20 +199,17 @@ QueryResult = Query.Execute();
 {"Catalog",0,0,"cat[alog.]","Catalog.<?"""", MetadataObject, ""Catalog"", ""Catalog.TabularSection"">"}
 },
 {0,
-{"Enumeration",0,0,"enum[eration.]","Enumeration.<?"""", MetadataObject, ""Enumeration"">"}
+{"InformationRegister",0,0,"infor[mation registers.]","InformationRegister.<?"""", MetadataObject, ""InformationRegister""><?"""", VariantChoice, ""Main table"", ""<?>"", ""SliceFirst"", "".SliceFirst(<?>)"", ""SliceLast"", "".SliceLast(<?>)"">"}
 },
 {0,
-{"InformationRegister",0,0,"inf[ormation registers.]","InformationRegister.<?"""", MetadataObject, ""InformationRegister""><?"""", VariantChoice, ""Main table"", ""<?>"", ""SliceFirst"", "".SliceFirst(<?>)"", ""SliceLast"", "".SliceLast(<?>)"">"}
+{"AccumulationRegister",0,0,"accum[ulationRegister.]","AccumulationRegister.<?"""", MetadataObject, ""AccumulationRegister""><?"""", VariantChoice, ""Main table"", ""<?>"", ""Balances"", "".Balances(<?>)"", ""Turnovers"", "".Turnovers(<?>)"", ""BalancesAndTurnovers"", "".BalancesAndTurnovers(<?>)"">"}
 },
 {0,
-{"AccumulationRegister",0,0,"acc[umulationRegister.]","AccumulationRegister.<?"""", MetadataObject, ""AccumulationRegister""><?"""", VariantChoice, ""Main table"", ""<?>"", ""Balances"", "".Balances(<?>)"", ""Turnovers"", "".Turnovers(<?>)"", ""BalancesAndTurnovers"", "".BalancesAndTurnovers(<?>)"">"}
-},
-{0,
-{"AccountingRegister",0,0,"accn","AccountingRegister.<?"""", MetadataObject, ""AccountingRegister""><?"""", VariantChoice, ""Main table"", ""<?>"", ""ExtDimensions"", "".ExtDimensions"", ""ДвиженияССубконто"", "".ДвиженияССубконто(<?>)"", ""Остатки"", "".Остатки(<?>)"", ""Обороты"", "".Обороты(<?>)"", ""ОстаткиИОбороты"", "".ОстаткиИОбороты(<?>)"", ""ОборотыДтКт"", "".ОборотыДтКт(<?>)"">
+{"AccountingRegister",0,0,"accoun[tingRegister]","AccountingRegister.<?"""", MetadataObject, ""AccountingRegister""><?"""", VariantChoice, ""Main table"", ""<?>"", ""ExtDimensions"", "".ExtDimensions"", ""ДвиженияССубконто"", "".ДвиженияССубконто(<?>)"", ""Остатки"", "".Остатки(<?>)"", ""Обороты"", "".Обороты(<?>)"", ""ОстаткиИОбороты"", "".ОстаткиИОбороты(<?>)"", ""ОборотыДтКт"", "".ОборотыДтКт(<?>)"">
 "}
 },
 {0,
-{"CalculationRegister",0,0,"cal[culationRegisters.]","CalculationRegister.<?"""", MetadataObject, ""CalculationRegister"", ""CalculationRegister.Перерасчет"">"}
+{"CalculationRegister",0,0,"calcul[ationRegisters.]","CalculationRegister.<?"""", MetadataObject, ""CalculationRegister"", ""CalculationRegister.Перерасчет"">"}
 },
 {0,
 {"SELECT",0,0,"select","SELECT WHEN <?> THEN ELSE END"}
