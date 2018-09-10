@@ -254,7 +254,7 @@ EndProcedure
 {2,
 {"SpreadsheetDocument",1,0,"",""},
 {0,
-{"GetArea",0,0,"ar[ea=]","Area<?""Area name""> = <?>.GetArea(""<?""Area name"">"");"}
+{"GetArea",0,0,"area","Area<?""Area name""> = <?>.GetArea(""<?""Area name"">"");"}
 },
 {0,
 {"Template",0,0,"templ[ate]","Template = GetTemplate(<?>);"}
