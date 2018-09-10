@@ -4,7 +4,7 @@
 {0,
 {"About",0,0,"","//	Text templates for 1C:Enterprise 8.3 configurator, version 1.0
 
-//  Based on Pavel Chistov origin version, web site - chistov.pro
+//  Based on Pavel Chistov origin version - 1c.chistov.pro
 
 //	Last version could be found here: https://github.com/alexkmbk/TextTemplatesFor1C
 
@@ -376,12 +376,23 @@ EndDo; "}
 {"NSTR",0,0,"nstr","NStr(""en='<?>';ru=''"")"}
 }
 },
-{3,
+{5,
 {"Comments",1,0,"",""},
 {0,
-{"Change (comment)",0,0,"c/","// { Contributor's Name 
+{"CHANGED (comment)",0,1,"/c","// { <?"""", UserFullName>
 <?>
-// } Contributor's Name"}
+// } <?"""", UserFullName>"}
+},
+{0,
+{"REMOVED",0,0,"/-","//{[-] <?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">
+<?>
+//}<?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">
+"}
+},
+{0,
+{"ADDED",0,0,"/+","//{[+] <?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">
+<?>
+//}<?"""", UserFullName> <?"""", DateTime, ""ДЛФ=DT"">"}
 },
 {0,
 {"Line",0,0,"/*","<?>//======================================================================================================================"}
